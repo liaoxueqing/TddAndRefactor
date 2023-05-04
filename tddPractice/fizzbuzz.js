@@ -13,7 +13,10 @@ function fizzBuzz(number) {
     if (isMetFizzCondition(number)) {
         return 'Fizz'
     }
-    return 'Buzz'
+    if (isMetBuzzCondition(number)) {
+        return 'Buzz'
+    }
+    return number
 }
 
 export default fizzBuzz;
