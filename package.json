@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node tddPractice/index.js",
     "start:tdd": "node tddPractice/index.js",
     "start:codeSmell": "node codeSmell/index.js",
-    "test": "jest"
+    "test": "jest --config jest.config.js"
   },
   "author": "",
   "license": "ISC",
