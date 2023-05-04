@@ -1,5 +1,7 @@
+import fizzBuzz from "./fizzbuzz.js";
+
 function main() {
-    console.log('Hello world')
+    fizzBuzz(3)
 }
 
 main();
