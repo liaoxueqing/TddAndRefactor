@@ -1,5 +1,9 @@
+function isMetFizzCondition(number) {
+    return number % 3 === 0 || number.toString().includes('3');
+}
+
 function fizzBuzz(number) {
-    if (number % 3 === 0 || number.toString().includes('3')) {
+    if (isMetFizzCondition(number)) {
         return 'Fizz'
     }
     return 'Buzz'
