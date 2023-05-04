@@ -6,4 +6,9 @@ describe('fizzBuzz', () => {
         const actual = fizzBuzz(3)
         expect(actual).toBe('Fizz')
     })
+
+    it('should return Buzz when the number is multiple of 5', () => {
+        const actual = fizzBuzz(5)
+        expect(actual).toBe('Buzz')
+    })
 })
