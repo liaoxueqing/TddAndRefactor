@@ -1,5 +1,5 @@
 function fizzBuzz(number) {
-    if (number % 3 === 0) {
+    if (number % 3 === 0 || number.toString().includes('3')) {
         return 'Fizz'
     }
     return 'Buzz'
