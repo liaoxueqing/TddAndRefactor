@@ -11,4 +11,9 @@ describe('fizzBuzz', () => {
         const actual = fizzBuzz(5)
         expect(actual).toBe('Buzz')
     })
+
+    it('should return Fizz when the number includes 3', () => {
+        const actual = fizzBuzz(13)
+        expect(actual).toBe('Fizz')
+    })
 })
