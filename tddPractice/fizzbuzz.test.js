@@ -41,4 +41,9 @@ describe('fizzBuzz', () => {
         const actual = fizzBuzz(53)
         expect(actual).toBe('FizzBuzz')
     })
+
+    it('should return number self when the number is not multiple of 3 and 5 and not includes 3 and 5', () => {
+        const actual = fizzBuzz(2)
+        expect(actual).toBe(2)
+    })
 })
