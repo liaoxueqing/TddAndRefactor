@@ -1,5 +1,5 @@
 function fizzBuzz() {
-    console.log('Hello world')
+    return 'Fizz'
 }
 
 export default fizzBuzz;
