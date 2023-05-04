@@ -5,6 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node tddPractice/index.js",
+    "start:tdd": "node tddPractice/index.js",
+    "start:codeSmell": "node codeSmell/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
